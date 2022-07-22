@@ -35,3 +35,5 @@ p {
     --linear:transparent linear-gradient(270deg, #008CB3 0%, #003C4D 100%) 0% 0% no-repeat padding-box;
 
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
