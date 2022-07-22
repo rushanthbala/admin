@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+// background-color: red;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+/* You can add global styles to this file, and also import other style files */
+:root {
+    // #008CB3
+    --main: #008cb3;
+    --primary: #ffffff;
+    --mainText: #082557; /*using heading*/
+    --primaryText: #cccc; /*using paragraph*/
+    font-family: 'Montserrat', sans-serif;
+    --background:#d2d8fc;
+    --background-linear: #2594b0;
+    --linear:transparent linear-gradient(270deg, #008CB3 0%, #003C4D 100%) 0% 0% no-repeat padding-box;
+
+  }
